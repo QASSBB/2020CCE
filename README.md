@@ -132,6 +132,7 @@ int main()
 # 第二週課堂作業
 
 ## 1. 試著使用指標 *p , 把變數n1 的值改掉
+！[week02-1] （https://user-images.githubusercontent.com/79627981/109965405-e429ae00-7d29-11eb-863d-91455a039b5e.png）
 ## 2. 試著使用指標 *p2 , 把變數n3 的值改掉
-## 3. 試著先 p2=p1, 然後 *p2=400, 再印出來。請用小畫家, 畫一下它們 的關係
-## 4. 現在改用陣列 int n[3]={10, 20, 30}, 再用指標, 去改裡面的值
+！[week02-2] （https://user-images.githubusercontent.com/79627981/109965463-f86dab00-7d29-11eb-8927-895cefd87a72.png）
+
