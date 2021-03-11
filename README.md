@@ -131,7 +131,7 @@ int main()
 ```
 # 第二週課堂作業
 
-## 1. 試著使用指標 *p , 把變數n1 的值改掉 ![week02-1] (https://user-images.githubusercontent.com/79627981/109965859-80ec4b80-7d2a-11eb-83f0-ef681869d366.png)
+## 1. 試著使用指標 *p , 把變數n1 的值改掉   ![week02-1](https://user-images.githubusercontent.com/79627981/109965859-80ec4b80-7d2a-11eb-83f0-ef681869d366.png)
 ## 2. 試著使用指標 *p2 , 把變數n3 的值改掉![week02-2](https://user-images.githubusercontent.com/79627981/109965838-792ca700-7d2a-11eb-8261-6f2ac124f3f7.png)
 ## 3. 試著先 p2=p1, 然後 *p2=400, 再印出來。請用小畫家, 畫一下它們的關係![week02-3](https://user-images.githubusercontent.com/79627981/109965663-3c60b000-7d2a-11eb-9d31-2f9f0cc8d768.png)
 ## 4. 現在改用陣列 int n[3]={10, 20, 30}, 再用指標,去改裡面的值![week02-4](https://user-images.githubusercontent.com/79627981/109965697-497d9f00-7d2a-11eb-9c21-e2358c28374d.png)
@@ -282,9 +282,9 @@ int main ()
 
 # 第三週課堂作業
 
-## 1. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; 到底發生了什麼事? 請畫圖解釋  ![week03-1]
-## 2. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555; 到底發生了什麼事? 請畫圖解釋  ![week03-2]
+## 1. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; 到底發生了什麼事? 請畫圖解釋  ![week03-1](https://github.com/QASSBB/2020CCE/blob/gh-pages/week03-1.png?raw=true)
+## 2. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555; 到底發生了什麼事? 請畫圖解釋  ![week03-2](https://github.com/QASSBB/2020CCE/blob/gh-pages/week03-2.png?raw=true)
 
-## 3. 請畫出 指標的宣告 int *p=&a[2]; 及指標的使用 p = &a[2] ![week03-3]
+## 3. 請畫出 指標的宣告 int *p=&a[2]; 及指標的使用 p = &a[2] ![week03-3](https://github.com/QASSBB/2020CCE/blob/gh-pages/week03-3.png?raw=true)
 
-## 4. 今天教最重要的是 malloc(), 它是什麼呢? 會幫你準備 memory (allocate memory)。請用老師傳給你的圖, 自己再畫一次, 增加印象。 ![week03-4]
+## 4. 今天教最重要的是 malloc(), 它是什麼呢? 會幫你準備 memory (allocate memory)。請用老師傳給你的圖, 自己再畫一次, 增加印象。 ![week03-4](https://github.com/QASSBB/2020CCE/blob/gh-pages/week03-4.png?raw=true)
