@@ -282,8 +282,7 @@ int main ()
 
 # 第三週課堂作業
 
-## 1. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; 到底發生了什麼事? 請畫圖解釋  (https://raw.githubusercontent.com/QASSBB/2020CCE/gh-pages/week03-1.png)
-
+## 1. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; 到底發生了什麼事? 請畫圖解釋  ![week03-1]
 ## 2. 老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555; 到底發生了什麼事? 請畫圖解釋  (https://raw.githubusercontent.com/QASSBB/2020CCE/gh-pages/week03-2.png)
 
 ## 3. 請畫出 指標的宣告 int *p=&a[2]; 及指標的使用 p = &a[2] (https://raw.githubusercontent.com/QASSBB/2020CCE/gh-pages/week03-3.png)
