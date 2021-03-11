@@ -131,8 +131,8 @@ int main()
 ```
 # 第二週課堂作業
 
-## 1. 試著使用指標 *p , 把變數n1 的值改掉![week02-1](https://user-images.githubusercontent.com/79627981/109965838-792ca700-7d2a-11eb-8261-6f2ac124f3f7.png)
-## 2. 試著使用指標 *p2 , 把變數n3 的值改掉![week02-2](https://user-images.githubusercontent.com/79627981/109965859-80ec4b80-7d2a-11eb-83f0-ef681869d366.png)
+## 1. 試著使用指標 *p , 把變數n1 的值改掉  ![week02-1](https://user-images.githubusercontent.com/79627981/109965859-80ec4b80-7d2a-11eb-83f0-ef681869d366.png)
+## 2. 試著使用指標 *p2 , 把變數n3 的值改掉![week02-2](https://user-images.githubusercontent.com/79627981/109965838-792ca700-7d2a-11eb-8261-6f2ac124f3f7.png)
 ## 3. 試著先 p2=p1, 然後 *p2=400, 再印出來。請用小畫家, 畫一下它們的關係![week02-3](https://user-images.githubusercontent.com/79627981/109965663-3c60b000-7d2a-11eb-9d31-2f9f0cc8d768.png)
 ## 4. 現在改用陣列 int n[3]={10, 20, 30}, 再用指標,去改裡面的值![week02-4](https://user-images.githubusercontent.com/79627981/109965697-497d9f00-7d2a-11eb-9c21-e2358c28374d.png)
 ![week02-5](https://user-images.githubusercontent.com/79627981/109965712-4f738000-7d2a-11eb-94d4-144831cb57d1.png)
