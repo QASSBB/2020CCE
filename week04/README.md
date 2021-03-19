@@ -92,3 +92,163 @@ int main ()
     printf("%f %f %f\n",f.x,f.y,f.z);
 }
 ```
+
+# 第四周實習課程式
+
+# 第一題
+
+## 進階題：除惡務盡 
+``` C
+#include <stdio.h>
+int main ()
+{
+	char a[100];
+	for (int i=0 ; i<=100 ; i++)
+	{	
+		while (scanf("%c",a)!=EOF)
+		{
+			if(a[i]!='2') printf("%c",a[i]);
+		}			 
+	}
+} 
+```
+# 第二題
+
+## 進階題：擲骰統計
+
+``` C
+#include <stdio.h>
+int main ()
+{
+	char a[1000];
+	int b=0,c=0,d=0,e=0,f=0,g=0;
+	for (int i=0 ; i<=100 ;i++)
+	{
+		while (scanf("%c",&a)!=EOF)	
+		if(a[i]=='1') b++;
+		else if(a[i]=='2') c++;
+		else if(a[i]=='3') d++;
+		else if(a[i]=='4') e++;
+		else if(a[i]=='5') f++;
+		else if(a[i]=='6') g++;	
+	}
+	printf("1:%d\n",b);
+	printf("2:%d\n",c);
+	printf("3:%d\n",d);
+	printf("4:%d\n",e);
+	printf("5:%d\n",f);
+	printf("6:%d\n",g);
+}
+```
+# 第三題
+
+## 進階題：函數找整數的最大數字
+
+```C
+#include <stdio.h>
+int max_digit(int a)
+{
+	int ans=0;
+	while (a!=0)
+	{	
+		if(a%10>=ans) ans=a%10;
+		a/=10;
+	}
+	return ans;
+} 
+int main(void){
+  int n;
+  scanf("%d", &n);
+  printf("[%d]", max_digit(n));
+  return 0;
+}
+```
+# 第四題
+
+## 進階題：星星等腰三角 
+
+```C
+#include <stdio.h>
+int main ()
+{
+	int a;
+	scanf("%d",&a);
+	for (int i=1 ; i<=a ; i++)
+	{
+		for (int k=a-i ; k>=1 ;k--)
+		{
+			printf(" ");
+		}
+		for(int k=2*i-1 ; k>=1 ; k--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+}
+```
+# 第五題
+
+## 基礎題：分開整數的每個數字
+
+``` C
+#include <stdio.h>
+int main ()
+{
+	int a;
+	scanf("%d",&a);
+	printf("%d   ",a/10000);
+	printf("%d   ",a%10000/1000);
+	printf("%d   ",a%10000%1000/100);
+	printf("%d   ",a%10000%1000%100/10);
+	printf("%d",a%10000%1000%100%10);
+}
+```
+# 第六題
+
+## 基礎題：字元判別
+
+``` C
+#include <stdio.h>
+int main ()
+{
+	char a;
+	scanf("%c",&a);
+	if(a>=48 && a<=57) printf("D");
+	else if(a>=65 && a<=90) printf("U");
+	else if(a>=97 && a<=122) printf("L");
+	else printf("O");
+}
+```
+# 第七題
+
+## 基礎題：數字之首 
+
+``` C
+#include <stdio.h>
+int main ()
+{
+	int a;
+	scanf("%d",&a);
+	if (a>=1000) printf("%d",a/1000);
+	else if(a>=100) printf("%d",a/100);
+	else if(a>=10) printf("%d",a/10);
+	else if (a>=0) printf("%d",a);
+} 
+```
+# 第八題
+
+## 基礎題：輸出從0到N的偶數
+
+``` C
+#include <stdio.h>
+int main ()
+{
+	int n;
+	scanf("%d",&n);
+	for (int i=1 ; i<=n ; i++)
+	{
+		if (i%2==0)printf("%d ",i);
+	}
+}
+```
