@@ -1,7 +1,6 @@
 # 第16周隨堂作業
 
 ## 1. step01-1_畫出圓盤,用ellipse(圓心x,y, 寬,高) 配合void setup()及void draw()還有background() ![week16-1](https://github.com/QASSBB/2020CCE/blob/gh-pages/week16/week16-1.png?raw=true)
-
 ## 2. step01-2_畫出圓弧arc,參與很像ellipse()的圓心、寬高,但多了2個不明參數,我們利用fill()不同色彩來看結果,並利用mouseX來算出一個magic number ![week16-2](https://github.com/QASSBB/2020CCE/blob/gh-pages/week16/week16-2.png?raw=true)
 
 ## 3. step01-3_嘗試arc()的參數,重點在了解 start 的意思,它可以讓圓弧轉動 ![week16-3](https://github.com/QASSBB/2020CCE/blob/gh-pages/week16/week16-3.png?raw=true)
