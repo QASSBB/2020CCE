@@ -1,6 +1,6 @@
 # 第17周隨堂作業
 
-## 1. step01_打字遊戲_先利用字串變數 String line來方便之後有變化。再利用 text()畫出字串 [week17-1](https://github.com/QASSBB/2020CCE/blob/gh-pages/week17/week17-1.png?raw=true)
+## 1. step01_打字遊戲_先利用字串變數 String line來方便之後有變化。再利用 text()畫出字串 [week17-1](![image](https://user-images.githubusercontent.com/79627981/122433011-65027200-cfc8-11eb-8149-a85c458700e4.png))
 
 ## 2. step02_打字遊戲,了解字串可以做+來越接越長, char c是個字母, key也是個字母,也可以+接起來變長 [week17-2](https://github.com/QASSBB/2020CCE/blob/gh-pages/week17-2.png?raw=true)
 
